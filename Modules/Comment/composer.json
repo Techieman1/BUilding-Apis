@@ -1,0 +1,25 @@
+{
+    "name": "ci/comment",
+    "description": "",
+    "authors": [
+        {
+            "name": "Cynoinfotech Team",
+            "email": "info@cynoinfotech.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Modules\\Comment\\Providers\\CommentServiceProvider"
+            ],
+            "aliases": {
+
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\Comment\\": ""
+        }
+    }
+}
